@@ -4,6 +4,32 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  @apply cursor-pointer;
+}
+
+/* Hack to temporarily solve https://github.com/supabase/auth-ui/issues/219 */
+/* .authBtn {
+  @apply btn;
+}
+button[disabled].authBtn {
+  font-size: 0.001px;
+  filter: brightness(65%);
+}
+button[disabled].authBtn::before {
+  font-size: 14px;
+  content: "Loading...";
+  color: oklch(var(--pc));
+} */
+
+/* @layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+} */
+
 :root {
   --background-color: black;
   --navbar-color: #282828;
@@ -39,11 +65,5 @@
 .left-neon-shadow {
   box-shadow: 14px 0px 10px -10px #fff inset;
 }
-
-
-
-
-
-
 
 
