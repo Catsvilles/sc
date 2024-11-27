@@ -19,6 +19,7 @@ A Spotify-style application for ambient music streaming featuring:
 - Custom playlists
 - Advanced frequency filtering sliders
 - Built with Svelte/SvelteKit, TypeScript, Supabase, PostgreSQL
+- Capacitor and Konsta UI for mobile
 
 ### canvas-recorder
 A lightweight application for capturing canvas animations with audio support.
