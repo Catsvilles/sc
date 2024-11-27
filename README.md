@@ -1,4 +1,4 @@
-This monorepo showcases various audio-related projects primarily built with Svelte/SvelteKit, TypeScript, Supabase, PostgreSQL, Web Audio API, WebGL, Canvas, and SVG.
+This monorepo showcases various creative and audio-related projects primarily built with Svelte/SvelteKit, TypeScript, Supabase, PostgreSQL, Web Audio API, WebGL, Canvas, and SVG.
 
 ## Projects
 
