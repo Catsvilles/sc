@@ -24,6 +24,12 @@ A Spotify-style application for ambient music streaming featuring:
 ### canvas-recorder
 A lightweight application for capturing canvas animations with audio support.
 
+### video-timeline
+A video timeline interface generator featuring:
+- Video thumbnail generation using Web Workers
+- Navigation similar to professional video editors like DaVinci Resolve and Adobe Premiere Pro
+- Visual timeline scrubbing with frame previews
+
 ### mini-ableton
 An Ableton DAW-inspired music editing application built with Svelte/SvelteKit and TypeScript.
 Live demo: https://mixer-one.vercel.app/
