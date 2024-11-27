@@ -1,45 +1,47 @@
-# An audio editing application developed using TypeScript and SvelteKit, harnessing the power of the Web Audio API and Canvas API
+This monorepo showcases various audio-related projects primarily built with Svelte/SvelteKit, TypeScript, Supabase, PostgreSQL, Web Audio API, WebGL, Canvas, and SVG.
 
-Lives here:
-https://sc-kappa.vercel.app/
+## Projects
 
-# create-svelte
+### atmoscapes
+An analog VHS portfolio featuring vintage-inspired visual effects.
+Live demo: https://atmoscapes.com/
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+### audio-figma
+A Figma-inspired audio editor for sound design and SFX editing. Built with:
+- SvelteKit & TypeScript
+- Web Audio API
+- Canvas & SVG APIs
 
-## Creating a project
+Live demo: https://sc-kappa.vercel.app/
 
-If you're seeing this, you've probably already done this step. Congrats!
+### ambient-streams
+A Spotify-style application for ambient music streaming featuring:
+- Custom playlists
+- Advanced frequency filtering sliders
+- Built with Svelte/SvelteKit, TypeScript, Supabase, PostgreSQL
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+### canvas-recorder
+A lightweight application for capturing canvas animations with audio support.
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+### mini-ableton
+An Ableton DAW-inspired music editing application built with Svelte/SvelteKit and TypeScript.
+Live demo: https://mixer-one.vercel.app/
 
-> Note: the `@next` is temporary
+### pitchshifter
+Advanced audio manipulation tool featuring:
+- High-quality pitch shifting
+- Tempo adjustment
+- Audio cutting & fading
+- Effects (Reverb, Filter, etc)
+Built with Svelte/SvelteKit and TypeScript
 
-## Developing
+Live demo: https://ncore.vercel.app/
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### sf-players
+Collection of Soundfont player implementations and demos integrated with Svelte and TypeScript for comparative testing.
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+### svelte-audio-waveform
+Svelte 5 NPM package for audio visualization:
+- Generate waveforms from audio files
+- Canvas-based rendering
+GitHub: https://github.com/Catsvilles/svelte-audio-waveform

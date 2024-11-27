@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #e0e0e0;
+    --secondary-color: black;
+    --active-color: #d44040;
+	--button-color: #e0e0e0;
+    --background-color:  #e0e0e0;
+    --text-color: #747474;
+    --border-color: #181818;
+    --hover-color: #d1d0d0;
+	--icon-color: #747474;
+	--thumb-color: #d44040;
+	--track-color: #747474;
+};
+
+#waveform ::part(region-handle) {
+	border-left: 10px;
+	border-right: 10px;
+	width: 10px;
+}
+
+#waveform ::part(region-handle region-handle-right) {
+	border-right-width: 3px !important;
+	border-right-color: #d44040 !important;
+}
+
+#waveform ::part(region-handle region-handle-left) {
+	border-left-width: 3px !important;
+	border-left-color: #d44040 !important;
+}
+
+ input {
+
+	--track-thickness: 2px; 
+	--thumb-height: 15px;
+	--thumb-width: 15px; 
+	width: 100%;
+	height: var(--thumb-height); 
+  --hover-color-mix: color-mix(in srgb, var(--thumb-color), #000 var(--hover-percentage, 0%));
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: none;
+	cursor: pointer; 
+	overflow: hidden;
+  }
+  
+  input:focus-visible,
+  input:hover {
+	--hover-percentage: 25%;
+  }
+  
+input[type="range" i]::-webkit-slider-thumb {
+  height: var(--thumb-height); 
+  width: var(--thumb-width); 
+  background: var(--hover-color-mix);
+  border-radius: 50%;
+  border-image: linear-gradient(90deg, var(--hover-color-mix) 50%, var(--track-color) 0) 0 1/calc(50% - var(--track-thickness)/2) 100vw/0 100vw;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: .3s;
+} 
+
+
+.body{
+	@apply bg-[var(--background-color)];
+}
+
+.neo{
+	box-shadow:  6px 6px 12px #bebebe,
+				-6px -6px 12px #ffffff;
+}

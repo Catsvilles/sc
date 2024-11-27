@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: black;
+  --navbar-color: #282828;
+  --options-color: #383838;
+  --first-active-color: white;
+  --second-active-color: white;
+
+  --gradient-from: white;
+  --gradient-to: white;
+
+  --range-slider:          white; /* slider main background color */
+  --range-handle-inactive: #7374E0; /* inactive handle color */
+  --range-handle:          #838de7; /* non-focussed handle color */
+  --range-handle-focus:    #4a40d4; /* focussed handle color */
+  --range-handle-border:   var(--range-handle); /* handle border color */
+  --range-range-inactive:  var(--range-handle-inactive); /* inactive range bar background color */
+  --range-range:           var(--range-handle-focus); /* active range background color */
+  --range-float-inactive:  var(--range-handle-inactive); /* inactive floating label background color */
+  --range-float:           var(--range-handle-focus); /* floating label background color */
+  --range-float-text:      white; /* text color on floating label */
+}
+
+.neon-shadow{
+  box-shadow: 
+  0 0 .1rem #fff,
+  0 0 .1rem #fff,
+  0 0 1rem  var(--second-active-color),
+  0 0 0.4rem var(--second-active-color),
+  0 0 1.8rem var(--second-active-color),
+  inset 0 0 0.65rem var(--second-active-color);
+}
+
+.left-neon-shadow {
+  box-shadow: 14px 0px 10px -10px #fff inset;
+}
+
+
+
+
+
+
+
+

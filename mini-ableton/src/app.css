@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --yellowc: #ecec0b;
+    --bluec: #0BECEC;
+}
+
+.first-bg-color {
+    @apply bg-[#484848]
+}
+
+.second-bg-color {
+    @apply bg-[#383838]
+}
+
+.text-color {
+    @apply text-gray-400
+}
+
+.icon-fill-active {
+    @apply fill-[#ecec0b]
+}
+
+.icon-fill-inactive {
+    @apply fill-[gray]
+}
+
+input[type="range"] { 
+    -webkit-appearance: none;
+    @apply relative overflow-hidden h-2 w-full cursor-pointer rounded-md m-auto
+}
+
+::-webkit-slider-runnable-track {
+    background: #35363f;
+}
+
+::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 8px; 
+    height: 8px;
+    background: #ecec0b ;
+    box-shadow: -200px 0 0 200px  #ecec0b;
+}
+
+
