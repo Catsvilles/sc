@@ -2,6 +2,17 @@ This monorepo showcases various creative and audio-related projects primarily bu
 
 ## Projects
 
+### WebGL Interactive Experiences
+A collection of engaging 2D and 3D browser-based games and interactive experiences built with modern web technologies. Leverages WebGL, Canvas API, and Web Audio API to create smooth, performant visuals and immersive audio environments.
+- Hardware-accelerated graphics using WebGL and Canvas API
+- Interactive audio design with Web Audio API
+- Creative visual effects using SVG filters
+- Cross-browser compatibility and optimization
+- Responsive design for multiple devices
+
+Video Demo: https://youtu.be/aO9Wm1Lr3h8
+
+
 ### atmoscapes
 An analog VHS portfolio featuring vintage-inspired visual effects.
 Live demo: https://atmoscapes.com/
