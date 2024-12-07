@@ -63,4 +63,5 @@ Collection of Soundfont player implementations and demos integrated with Svelte 
 Svelte 5 NPM package for audio visualization:
 - Generate waveforms from audio files
 - Canvas-based rendering
+
 GitHub: https://github.com/Catsvilles/svelte-audio-waveform
